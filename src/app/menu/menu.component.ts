@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
   firstName:String="LearnersCode";
   lastName:String="Creators";
+  age:number=10;
   constructor() { }
 
   ngOnInit() {
