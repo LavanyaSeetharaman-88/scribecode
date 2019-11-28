@@ -12,4 +12,5 @@ Age: {{ age }}
   <button type="button" class="btn btn-success" [disabled]="disabledMyButton" (click)="sayHello()">I am disabled</button>
   <input type="text" class="form-control" placeholder="enter your first name" (change)="textChanged($event)" [value]="mytext">
   <button type="button" class="btn btn-success"  (click)="textChangeFn()">Submit</button>
+   <input type="text" class="form-control" placeholder="two way binding example" [(ngModel)]="Name" >
 </div>
